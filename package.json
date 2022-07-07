@@ -1,0 +1,24 @@
+{
+	"name": "access-nft",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"compile": "hardhat compile",
+		"test": "hardhat test",
+		"deploy": "hardhat run scripts/deploy.js --network goerli"
+	},
+	"dependencies": {
+		"@nomiclabs/hardhat-ethers": "^2.0.5",
+		"@nomiclabs/hardhat-etherscan": "^3.0.1",
+		"@nomiclabs/hardhat-waffle": "^2.0.2",
+		"@openzeppelin/contracts": "^4.4.2",
+		"axios": "^0.27.2",
+		"chai": "^4.3.6",
+		"dotenv": "^16.0.0",
+		"ethereum-waffle": "^3.4.4",
+		"ethers": "^5.5.4",
+		"hardhat": "^2.8.3",
+		"hardhat-gas-reporter": "^1.0.8"
+	}
+}
